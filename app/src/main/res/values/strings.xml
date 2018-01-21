@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Voyageur</string>
+
+    <string name="explore">Explore</string>
+    <string name="seasonal">Seasonal</string>
+    <string name="human_wonders">Human Wonders</string>
+    <string name="your_trips">Your Trips</string>
+
+    <string name="top_destinations">Top Destinations</string>
+    <string name="beaches">Beaches</string>
+    <string name="hill_stations">Hill Stations</string>
+    <string name="deserts">Deserts</string>
+    <string name="spiritual_places">Spiritual Places</string>
+
+    <string name="taj_mahal">Taj Mahal</string>
+    <string name="angkor_wat">Angkor Wat</string>
+    <string name="the_redeemer">Christ the Redeemer</string>
+    <string name="colosseum">The Colosseum</string>
+    <string name="teotihuacan">Teotihuacan</string>
+    <string name="easter_island">Easter Island</string>
+    <string name="great_pyramids">The Great Pyramids</string>
+    <string name="wall_of_china">The Great wall of China</string>
+
+    <string name="rome">Rome, Italy</string>
+    <string name="paris">Paris, France</string>
+    <string name="prague">Prague, Czech Republic</string>
+    <string name="florence">Florence, Italy</string>
+    <string name="switzerland">Switzerland</string>
+
+    <string name="navagio">Navagio, Greece</string>
+    <string name="anse_source_d_argent">Anse Source d\'Argent, Seychelles</string>
+    <string name="la_concha">La Concha, Spain</string>
+    <string name="champagne">Champagne Beach, Vanuatu</string>
+    <string name="bondi">Bondi Beach, Australia</string>
+    <string name="nissi">Nissi Beach, Cyprus</string>
+
+    <string name="Null"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

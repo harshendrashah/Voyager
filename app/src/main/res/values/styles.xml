@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorPrimaryDark">#7B1FA2</item>
+        <item name="colorAccent">#FF6F00</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#4A148C</item>
+        <item name="tabSelectedTextColor">#4A148C</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#AA00FF</item>
+    </style>
+
+
+    <style name="HomePageTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@color/colorTextViewBackground</item>
+    </style>
+
+    <style name="HomePageCardView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackgroud">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.shah.voyageur.MainFragmentsPackage.HomePageFragment">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/top_destinations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                app:cardCornerRadius="36dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/topdestinations2" />
+
+                <TextView
+                    android:text="@string/top_destinations"
+                    style="@style/HomePageTextView"/>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/home_LinearLayout_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/top_destinations">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/beaches"
+                        android:layout_marginLeft="8dp"
+                        app:cardCornerRadius="8dp"
+                        style="@style/HomePageCardView">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/beaches1" />
+
+                        <TextView
+                            android:text="@string/beaches"
+                            style="@style/HomePageTextView"/>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/deserts"
+                        style="@style/HomePageCardView"
+                        app:cardCornerRadius="8dp"
+                        android:layout_marginLeft="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="285dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/desert1" />
+
+                        <TextView
+                            android:text="@string/deserts"
+                            style="@style/HomePageTextView"/>
+
+                    </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/hill_stations"
+                        style="@style/HomePageCardView"
+                        app:cardCornerRadius="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="230dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/hillstation1" />
+
+                        <TextView
+                            android:text="@string/hill_stations"
+                            style="@style/HomePageTextView"/>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/spiritual_places"
+                        style="@style/HomePageCardView"
+                        app:cardCornerRadius="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="235dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/spiritual1" />
+
+                        <TextView
+                            android:text="@string/spiritual_places"
+                            style="@style/HomePageTextView"/>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
