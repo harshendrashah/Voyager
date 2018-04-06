@@ -1,10 +1,15 @@
 <resources>
-    <string name="app_name">Voyageur</string>
+    <string name="app_name">Voyager</string>
 
     <string name="explore">Explore</string>
     <string name="seasonal">Seasonal</string>
     <string name="human_wonders">Human Wonders</string>
     <string name="your_trips">Your Trips</string>
+
+    <string name="about">About</string>
+    <string name="attractions">Attractions</string>
+    <string name="hotels">Hotels</string>
+    <string name="photo_gallery">Photo Gallery</string>
 
     <string name="top_destinations">Top Destinations</string>
     <string name="beaches">Beaches</string>
@@ -34,7 +39,15 @@
     <string name="bondi">Bondi Beach, Australia</string>
     <string name="nissi">Nissi Beach, Cyprus</string>
 
+    <string name="winter">Winter</string>
+    <string name="fall">Fall</string>
+    <string name="summer">Summer</string>
+    <string name="autumn">Autumn</string>
+    <string name="monsoon">Monsoon</string>
+    <string name="spring">Spring</string>
+
     <string name="Null"></string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#7B1FA2</color>
     <color name="colorAccent">#E91E63</color>
     <color name="colorTextViewBackground">#AB47BC</color>
-    <color name="colorBackgroud">#F3E5F5</color>
+    <color name="colorBackground">#F3E5F5</color>
 
     <color name="top_destinations">#1E88E5</color>
     <color name="beaches">#0097A7</color>
@@ -18,6 +18,7 @@
     <color name="trans_deserts">#20F44336</color>
     <color name="trans_hill_stations">#2043A047</color>
     <color name="trans_spiritual_palces">#20FFC107</color>
+    <color name="trans_colorTextViewBackground">#01ffffff</color>
 
     <!--Statusbar Colors-->
     <color name="stat_top_destinations">#1565C0</color>
@@ -31,6 +32,7 @@
     <color name="red">#F44336</color>
     <color name="deep_orange">#F4511E</color>
     <color name="brown">#795548</color>
+    <color name="light_gray">#E0E0E0</color>
 
 </resources>
     

@@ -34,10 +34,27 @@
         <item name="android:background">@color/colorTextViewBackground</item>
     </style>
 
+    <style name="SeasonalTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/trans_colorTextViewBackground</item>
+    </style>
     <style name="HomePageCardView">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_marginRight">8dp</item>
         <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="SeasonalFragmentTheme" parent="AppTheme" >
+        <item name="colorAccent">#673AB7</item>
+        <item name="colorPrimaryDark">#E65100</item>
+        <item name="colorPrimary">#F57C00</item>
     </style>
 </resources>
